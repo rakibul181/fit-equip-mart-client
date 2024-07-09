@@ -17,6 +17,11 @@ module.exports = {
       },
     },
     extend: {
+       
+      fontFamily: {
+        sans: ['Roboto Condensed', 'sans-serif'],
+        anton: ['Anton', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -24,7 +29,7 @@ module.exports = {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#FD3D0C",  // Primary color
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
@@ -52,6 +57,7 @@ module.exports = {
           foreground: "hsl(var(--card-foreground))",
         },
       },
+      
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
