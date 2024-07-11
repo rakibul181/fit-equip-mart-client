@@ -1,30 +1,7 @@
 import { Carousel } from "antd";
 
 const Hero = () => {
-  const carouselContent = [
-     
-    {
-      img: "h2",
-      heading: "Unleash Your Potential, Gear Up for Success",
-      description:
-        "Discover our range of products designed to enhance your workouts. From hydration to recovery, we have everything you need to stay fit and healthy",
-      buttonText: "Shop Now",
-    },
-    {
-      img: "h3",
-      heading: "The best fitness accessories tailored to your needs",
-      description:
-        "Discover our range of products designed to enhance your workouts. From hydration to recovery, we have everything you need to stay fit and healthy",
-      buttonText: "Buy Now",
-    },
-    {
-      img: "h4",
-      heading: "Empower Your Fitness Journey, Train Like a Pro",
-      description:
-        "Explore our wide range of fitness accessories, including wearable tech, recovery tools, and home gym essentials. Stay motivated and track your progress with our latest gear",
-      buttonText: "Explore Collection",
-    },
-  ];
+  
   return (
     <Carousel autoplay>
       <section
